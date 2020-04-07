@@ -1,0 +1,429 @@
+/* DOCUMENT
+    - THEME THE
+*/
+
+/* FONTS
+    - Default   Lato
+    - Subtitle
+*/
+
+/* CSS DIRECTORY
+    1. GLOBAL
+    2. HEADER
+    3. PROCESS
+    4. TOUR
+    5. GALERIES
+    6. GUIDE
+    7. FOOTER
+
+*/
+
+@font-face{
+    font-family: "mfn";
+    src: url("../fonts/mfn-icons4cdc.woff") format("woff"),
+        url("../fonts/mfn-icons4cdc.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "revicon";
+    src: url("../fonts/revicons90c6.woff") format("woff"),
+        url("../fonts/revicons90c6.ttf") format("truetype");
+}
+
+
+/* GLOBAL
+=================================*/
+
+html{
+    background-color: #fff;
+    width: 100%;
+    font-family: 'mfn';
+}
+
+h1, h2, h3, h4{
+    font-family: 'revicon','Lato', 'Arial', sans-serif;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    color: #193D46;
+}
+
+h1{
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 250%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+h3{
+    font-size: 160%;
+}
+
+h4{
+    color: #fff;
+    text-transform: none;
+    font-size: 140%;
+}
+
+p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+section{
+    padding: 30px 0 60px 0;
+    overflow-x: hidden;
+}
+
+/* HEADER
+=================================*/
+
+header{
+    height: 95vh;
+}
+
+header img[alt="slider"]{
+    height: 95vh;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+nav img{
+    position: relative;
+    width: 200px;
+}
+
+nav a{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #00A2A0;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+nav div{
+    margin-left: 20px;
+}
+
+nav .btn-full{
+    margin: 10px 10px; 
+}
+
+nav a i{
+    font-size: 15px;
+}
+
+.navbar-nav a:hover{
+    color: #00A2A0;
+}
+
+.custom-toggle .navbar-toggler-icon { 
+            background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0, 162, 160)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+        }
+
+.home-title{
+    position: absolute;
+    top: 25%;
+    width: 385px;
+}
+
+nav a:nth-child(1){
+    color: #193D46;
+    font-weight: 700;
+}
+
+.home-title p{
+    color: #000;
+    font-size: 100%;
+    margin: 50px 15px;
+}
+
+.home-title p:before{
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: -12px;
+    background-color: #F9C890;
+    width: 3px;
+    height: 99px;
+    content: '';
+    margin-right: 10px;
+}
+
+.home-title h1{
+    font-size: 195%;
+}
+
+/* BOUTON
+=================================*/
+
+.btn{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: background-color 1s, color 1s, border 1s;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn-full{
+    background-color: #00A2A0;
+    color: #fff;
+    margin-right: 15px;
+    width: 125px;
+}
+
+.btn-light{
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    color: #4a3624;
+    background-color: #ECE1DA;
+}
+
+.btn-full:hover{
+    background-color: #007270;
+    color: #fff;
+}
+
+.btn-light:hover{
+    background-color: #E2D3C7;
+    border: 1px solid #E2D3C7;
+    color: #4a3624;
+}
+
+.btn-pack{
+    background-color: #57A515;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.btn-pack:hover{
+    background-color: green;
+    color: #fff;
+}
+
+/* PROCESS
+=================================*/
+
+#process{
+    background: url('../images/journey2-sectionbg1.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.process{
+    align-items: center;
+    padding: 40px auto;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.process:nth-child(2){
+    margin-top: 100px;
+}
+
+.process-step-title{
+    background-color: #E2D3C7;
+    border-radius: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    width: 100px;
+    color: #ac8472;
+    margin: 10px auto;
+}
+
+.process img{
+    display: block;
+    margin: 20px auto;
+}
+
+.process h3{
+    font-size: 20px;
+    color: #00A2A0;
+    
+}
+
+#process .btn{
+    position: relative;
+    width: 175px;
+    margin: 20px auto;
+    margin-top: 75px;
+    font-weight: 400;
+}
+
+/* TOUR
+=================================*/
+
+.transit{
+    margin: 0;
+    padding: 0;
+}
+
+.transit img{
+    max-width: 100vw;
+    object-fit: cover;
+}
+
+.tour{
+    background-color: #00A2A0;
+    overflow: visible;
+    padding-top: 0;
+    padding-bottom: 100px;
+}
+
+.tour h2{
+    color: #fff;
+    font-weight: 600;
+    text-transform: none;
+}
+
+.tour-details{
+    padding: 30px 2px;
+    color: #fff;
+    text-align: center;
+}
+
+.tour-details img{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.tour-details h4{
+    text-align: center;
+}
+
+.galeries-img{
+    position: relative;
+    top: -125px;
+    display: block;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 175px;
+    margin-bottom: 30px;
+}
+
+.galeries{
+    padding: 0px;
+}
+
+#galerie .container:after{
+    display: block;
+    position: relative;
+    background-color: #F9C890;
+    width: 50vw;
+    height: 2px;
+    content: '';
+    margin: 20px auto;
+}
+
+#galerie{
+    overflow: visible;
+    padding-bottom: 0;
+}
+
+#galerie .btn{
+    position: relative;
+    top: -75px;
+    width: 175px;
+    margin: auto;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+/* GUIDE
+=================================*/
+.guide{
+    align-items: center;
+    padding: 40px auto;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.guide h2{
+    color: #193D46;
+    margin-bottom: 0px;
+}
+
+.guide h5{
+    color: #00A2A0;
+    margin-top: 20px;
+}
+
+.guide blockquote{
+    color: #193D46;
+    font-style: italic;
+    line-height: 175%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.guide img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.guide p{
+    margin: 10px auto 50px auto;
+    text-align: center;
+    width: 25vw;
+    font-size: 100%;
+}
+
+/* FOOTER
+=================================*/
+
+footer {
+    background-image: url('../images/journey2-footerbg.png');
+    background-position: center;
+    background-size: cover;
+    background-color: #ECE1DA;
+    color: #2c2c2c;
+    height: 100%;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+footer p{
+    width: 25vw;
+    margin: 20px auto;
+}
+
+footer img{
+    margin: 35px;
+}
+
+footer i{
+    font-size: 25px;
+    display: inline-block;
+    padding: 0 10px;
+    color: #00A2A0;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+footer i:hover{
+    color: #007270;
+}
+
+.copyright{
+    text-align: center;
+    color: #2c2c2c;
+}

@@ -1,0 +1,32 @@
+#process{
+    margin: 15% 5% 0% 5%;
+}
+
+h3{
+    text-transform: none;
+    font-size: 14px!important;
+    font-weight: 700;
+}
+
+#contact{
+    background-color: #007270;
+    text-align: center;
+}
+
+#contact h2{
+    color: #FFF;
+}
+
+#contact input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#contact textarea{
+    width: 100%;
+}
+
+#contact .btn{
+    margin: 20px;
+}
+

@@ -96,7 +96,7 @@ header img[alt="slider"]{
 
 nav img{
     position: relative;
-    width: 200px;
+    width: 100px;
 }
 
 nav a{
@@ -408,6 +408,7 @@ footer p{
 
 footer img{
     margin: 35px;
+    width: 25%;
 }
 
 footer i{

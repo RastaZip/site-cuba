@@ -270,11 +270,21 @@ nav a:nth-child(1){
 .transit{
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    text-align: center;
 }
 
 .transit img{
     max-width: 100vw;
     object-fit: cover;
+}
+
+.transit iframe{
+    margin-top: -50%;
+    position: relative;
+    top: 85%;
+    height: 75%;
+    width: 60%;
 }
 
 .tour{
